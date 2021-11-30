@@ -1,0 +1,15 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+cc_binary(
+    name = "reversort",
+    srcs = [
+        "reversort.cpp",
+    ],
+)
+
+cc_binary(
+    name = "max_cost_distribution",
+    srcs = [
+        "max_cost_distribution.cpp",
+    ],
+)

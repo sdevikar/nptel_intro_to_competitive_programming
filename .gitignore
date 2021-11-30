@@ -1,0 +1,5 @@
+.vscode
+bazel-bin
+bazel-nptel_intro_to_competitive_programming
+bazel-out
+bazel-testlogs
